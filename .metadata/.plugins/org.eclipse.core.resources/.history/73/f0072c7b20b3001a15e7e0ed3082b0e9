@@ -1,0 +1,22 @@
+import java.util.LinkedList;
+
+
+public class UserRecords {
+	
+	UserRecords(){
+		LinkedList<User> users = new LinkedList<User>();
+	}
+	
+	private LinkedList<User> users;
+
+	public LinkedList<User> getUsers() {
+		return users;
+	}
+
+	public void setUsers(LinkedList<User> users) {
+		this.users = users;
+	}
+	
+	
+
+}
